@@ -1,0 +1,90 @@
+.form-area
+{
+	width : 800px;
+	margin: 45px 160px 60px;
+}
+#m-form-ctrl
+{
+	display : none;
+}
+#message-m
+{
+	display : none;
+}
+#blah-m
+{
+	display : none;
+}
+#imgfile-m
+{
+	display : none;
+}
+body
+{
+	margin : 0;
+	padding : 0;
+}
+
+@media only screen and (max-width:480px) and (min-width:320px)
+{
+	body
+	{
+		padding : 0;
+		margin : 0;
+	}
+	center
+	{
+		position : absolute;
+		width : 335px;
+		top : 16px;
+	}
+	.form-control
+	{
+		display : none;
+	}
+	.form-area
+	{
+		width : 300px;
+		margin: 45px 0px 0px;
+	}
+	#m-form-ctrl
+	{
+		display : block;
+	}
+	#message-m
+	{
+		display : block;
+	}
+	#blah
+	{
+		display : none;
+	}
+	#blah-m
+	{
+		display : block;
+		width : 250px;
+		height : 120px;
+	}
+	#imgfile
+	{
+		display : none;
+	}
+	#imgfile-m
+	{
+		display : block;
+	}
+	#imgfile-m.form-control
+	{
+		width : 338px;
+	}
+	.btn, .btn-primary, .pull-right
+	{
+		position : relative;
+		width : 112px;
+	}
+	#m-blank
+	{
+		display : none;
+	}
+	
+}
